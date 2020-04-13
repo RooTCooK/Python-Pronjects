@@ -32,7 +32,7 @@ class DaguSpider(scrapy.Spider):
     name = "dagu"
     allowed_domains = ['fl5y.com']
     start_urls = [
-        'http://www.fl5y.com/xiazai/dagushu/'+str(x)+'.html' for x in range(7647,7933)] #6212-8400
+        'http://www.fl5y.com/xiazai/dagushu/'+str(x)+'.html' for x in range(7934,8399)] #6212-8400
 
     def parse(self, response):
         # 测试爬虫可以正常爬取网页代码，合并保存下来

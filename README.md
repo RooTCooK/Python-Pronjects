@@ -10,4 +10,4 @@
 
 ## 使用方法  
 
-> scrapy 
+> scrapy crawl dagu #爬虫名字
